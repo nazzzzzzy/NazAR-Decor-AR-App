@@ -74,5 +74,5 @@ Detects a plane, places the selected object, and displays product-specific actio
 
 ## Demo and Submission Links
 
-- Demo Video: [Watch the demo video here]([https://your-video-link-here](https://drive.google.com/file/d/1GZJoDNR4PdFEsXCHkByunLaIud5u0_YA/view?usp=sharing))
+- Demo Video: [Watch the demo video here](https://drive.google.com/file/d/1GZJoDNR4PdFEsXCHkByunLaIud5u0_YA/view?usp=sharing)
 - APK File: [Download the APK here](https://drive.google.com/file/d/1rwVFdfHIjizzZn0p5PgC9PUYe6PO2CyF/view?usp=sharing)
