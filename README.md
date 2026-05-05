@@ -1,33 +1,78 @@
-NazAR Decor AR Application
-Project Overview
-This project is an augmented reality retail application called Nazar Decor. The application allows the user to browse products, select a product, detect a horizontal plane, and place the selected 3D object into the real-world environment. Each product includes interactive features that demonstrate AR functionality and product manipulation.
-Products and Implemented Tasks
-Product	Required AR / UI Tasks Used	Implemented Features	Notes
-Desk Lamp	Display product information; Toggle light	1. Light button toggles the lamp between off/on state.
-2. Information button shows product information attached to the lamp or through the UI panel.	Used as one of the main decorative products in the AR scene.
-Vanity Desk	Change product appearance; Toggle visibility of a product part; Creative feature	1. Color button switches the vanity between material/color options.
-2. Show/Hide button toggles the visibility of the chair.
-3. Drawers button opens and closes the vanity drawers as the creative feature.	Creative feature reflects realistic furniture usage.
-Gramophone	Rotate product; Toggle audio; Reposition product	1. Rotate button rotates the gramophone.
-2. Audio button plays/stops audio as well as spins the record.
-3. Move button re-enables placement so the user can reposition the gramophone.	The record can spin while audio is active, depending on the final prefab setup.
-Ceramic Bowl	Change size; Particle effects	1. Resize button switches the bowl between larger and smaller sizes.
-2. Effects button is intended to toggle steam / soup-style effects for the bowl.	Used to demonstrate size manipulation and visual effects.
-Creative Feature
-The creative feature used in this project is the vanity desk drawer interaction. The user can open and close the drawers to simulate realistic furniture use in AR.
-Application Flow
-1. Front Page Canvas: Displays the Nazar Decor logo and a Products button.
-2. Product Gallery Canvas: Displays four products the user can choose from.
-3. AR Product Canvas: Detects a horizontal plane, places the selected object, and shows product-specific interaction buttons.
-Main C# Scripts Used
-ARButtonVisibilityManager.cs
-GalleryButtonHandler.cs
-SpawnPlaneProject.cs
-UIManager.cs
-ActionButtons.cs
-LampController.cs
-VanityController.cs
-GramophoneController.cs
-BowlController.cs
-ObjectVisibilityController.cs
+# NazAR Decor AR App
 
+NazAR Decor is a Unity-based augmented reality retail application that lets users browse decor products, place them into a real-world space, and interact with them through product-specific AR controls.
+
+## Project Overview
+
+The app simulates an AR decor shopping experience. Users can:
+
+- open the front page
+- browse a product gallery
+- select a product
+- detect a horizontal surface
+- place a 3D object in the environment
+- use interactive controls for each product
+
+## Products and Features
+
+### 1. Desk Lamp
+Features:
+- Toggle lamp on and off
+- View product information
+
+### 2. Vanity Desk
+Features:
+- Change vanity color/material
+- Show or hide the chair
+- Open and close drawers
+
+### 3. Gramophone
+Features:
+- Rotate the product
+- Play or stop audio
+- Reposition the object in AR
+
+### 4. Ceramic Bowl
+Features:
+- Resize the bowl
+- Trigger visual effects such as steam or soup-style effects
+
+## Creative Feature
+
+The main creative feature in this project is the vanity desk drawer interaction, which allows the user to open and close the drawers for a more realistic AR furniture experience.
+
+## Application Flow
+
+1. Front Page  
+Displays the NazAR Decor logo and entry button.
+
+2. Product Gallery  
+Shows the available products for selection.
+
+3. AR Product View  
+Detects a plane, places the selected object, and displays product-specific action buttons.
+
+## Main Scripts
+
+- `ARButtonVisibilityManager.cs`
+- `GalleryButtonHandler.cs`
+- `SpawnPlaneProject.cs`
+- `ActionButtons.cs`
+- `LampController.cs`
+- `VanityController.cs`
+- `GramaphoneController.cs`
+- `BowlController.cs`
+- `ObjectVisibilityController.cs`
+- `UIManagerScript.cs`
+
+## Built With
+
+- Unity
+- AR Foundation
+- XR Interaction Toolkit
+- C#
+
+## Demo and Submission Links
+
+- Demo Video: [Watch the demo video here]([https://your-video-link-here](https://drive.google.com/file/d/1GZJoDNR4PdFEsXCHkByunLaIud5u0_YA/view?usp=sharing))
+- APK File: [Download the APK here](https://drive.google.com/file/d/1rwVFdfHIjizzZn0p5PgC9PUYe6PO2CyF/view?usp=sharing)
